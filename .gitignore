@@ -1,0 +1,13 @@
+# Obsidian — volatile per-machine state
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+.obsidian/graph.json
+
+# Obsidian trash
+.trash/
+
+# OS cruft
+.DS_Store
+Thumbs.db
+desktop.ini

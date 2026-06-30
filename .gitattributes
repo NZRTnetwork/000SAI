@@ -1,0 +1,11 @@
+# Normalise line endings
+* text=auto eol=lf
+
+# Markdown / text
+*.md   text
+*.json text
+
+# Binary assets
+*.png  binary
+*.jpg  binary
+*.pdf  binary
