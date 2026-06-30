@@ -4,7 +4,7 @@ Structure AI is a structure methodology for AI agents, includes the **Crowned Mo
 
 ![Crowned Model](Crowned_Model.png)
 
-## The model
+## Inside SAI
 
 A strict containment hierarchy — each level lives inside the one above it:
 
