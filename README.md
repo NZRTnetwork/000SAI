@@ -1,6 +1,6 @@
 # Structure AI (000SAI)
 
-Structure AI is a structure methodology for AI agents, built on the **Crowned Model** and **Framework AI (000FAI)**. This repository is an [Obsidian](https://obsidian.md) vault that defines the reference-code taxonomy and folder structure from which the operational vault is derived.
+Structure AI is a structure methodology for AI agents, includes the **Crowned Model** and **Framework AI (000FAI)**. This repository is an [Obsidian](https://obsidian.md) vault that defines the reference-code taxonomy and folder structure from which the operational vault is derived.
 
 ![Crowned Model](Crowned_Model.png)
 
