@@ -61,8 +61,10 @@ A strict containment hierarchy — each level lives inside the one above it:
                 │       │   └── 000BUS/     Business Units
                 │       └── 000WIK/         Wiki
                 │           ├── 000APP/     Applications
+                │           │   ├── 000CPL/ cPanel
                 │           │   ├── 000DOL/ Dolibarr
                 │           │   ├── 000FLA/ Forum (Flarum)
+                │           │   ├── 000GIT/ GitHub (repo of the Crowned Model)
                 │           │   ├── 000NCL/ Nextcloud
                 │           │   ├── 000OBS/ Obsidian
                 │           │   └── 000WOR/ WordPress
