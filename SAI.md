@@ -9,7 +9,7 @@ type: reference
 
 # Structure AI (000SAI)
 
-Structure AI is a structure methodology for AI agents, built on the Crowned Model and Framework AI (000FAI). The `000SAI` folder is an Obsidian (000OBS) vault (000VLT).
+Structure AI is a structure methodology for AI agents, includes the Crowned Model and Framework AI (000FAI). The `000SAI` folder is an Obsidian (000OBS) vault (000VLT).
 
 ## Structure
 
@@ -31,7 +31,7 @@ A strict containment hierarchy — each level lives inside the one above it.
     - **(a2a) Agents (000AGT)** — Personas (000PER), Skills (000SKI)
     - **(a2b) Business Units (000BUS)**
   - **(a3) Wiki (000WIK)**
-    - **(a3a) Applications (000APP)** — Dolibarr (000DOL), Forum (000FLA), Nextcloud (000NCL), Obsidian (000OBS), WordPress (000WOR)
+    - **(a3a) Applications (000APP)** — cPanel (000CPL), Dolibarr (000DOL), Forum (000FLA), GitHub (000GIT, repo of the Crowned Model), Nextcloud (000NCL), Obsidian (000OBS), WordPress (000WOR)
     - **(a3b) Knowledge Bases (000KBS)**
 
 ### 000FAI files
