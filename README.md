@@ -2,7 +2,7 @@
 
 Structure AI is a structure methodology for AI agents, includes the **Crowned Model** and **Framework AI (FAI)**. This repository is an [Obsidian](https://obsidian.md) vault that defines the reference-code taxonomy and folder structure from which the operational vault is derived.
 
-![Crowned Model](Crowned_Model.png)
+
 
 ## Inside SAI
 
