@@ -1,44 +1,54 @@
 ---
-tags: [reference, meta, taxonomy, 000SAI, 000VLT]
-aliases: [Structure AI, SAI, 000SAI]
+tags:
+  - reference
+  - meta
+  - taxonomy
+  - SAI
+  - VLT
+aliases:
+  - Structure AI
+  - SAI
 role: admin
 created: 2026-04-01
 status: active
 type: reference
 ---
 
-# Structure AI (000SAI)
+# Structure AI (SAI)
 
-Structure AI is a structure methodology for AI agents, includes the Crowned Model and Framework AI (000FAI). The `000SAI` folder is an Obsidian (000OBS) vault (000VLT).
+Structure AI is a structure methodology for AI agents, includes the Crowned Model and Framework AI (FAI). The SAI folder is an Obsidian (OBS) vault (VLT) — folders use bare `XXX` code naming.
+
+Each ref-code node holds a single summary file named after its lowercase code (e.g. `win.md` under WIN, `dol.md` under DOL) — a condensed reference of what is actually used/configured for that node, not general product documentation.
 
 ## Structure
 
-A strict containment hierarchy — each level lives inside the one above it.
+An environment — each level lives inside the one above it.
 
-1. **System (000SYS)** — user device
-2. **Platforms (000PLA)**
-   - cPanel (000CPL) — web-hosting plan
-   - Windows (000WIN) — local machine
-3. **Frameworks (000FRA)** — installed under Windows
-   - 000FAI — reference-code framework (part of SAI)
-   - TOGAF (000TOG) — enterprise architecture
+1. **System (SYS)** — user device
+2. **Platforms (PLA)**
+   - cPanel (CPL) — web-hosting plan
+   - Windows (WIN) — local machine
+3. **Frameworks (FRA)** — installed under Windows (WIN)
+   - FAI — reference-code framework (part of SAI)
+   - TOGAF (TOG) — enterprise architecture
+   - Blockchain (BCH), Kubernetes (K8S)
 
-### 000FAI folders
+### FAI folders
 
-- **(a) Organization (000ORG)**
-  - **(a1) Governance (000GOV)** — Policies (000POL)
-  - **(a2) Operations (000OPS)**
-    - **(a2a) Agents (000AGT)** — Personas (000PER), Skills (000SKI)
-    - **(a2b) Business Units (000BUS)**
-  - **(a3) Wiki (000WIK)**
-    - **(a3a) Applications (000APP)** — cPanel (000CPL), Dolibarr (000DOL), Forum (000FLA), GitHub (000GIT, repo of the Crowned Model), Nextcloud (000NCL), Obsidian (000OBS), WordPress (000WOR)
-    - **(a3b) Knowledge Bases (000KBS)**
+- **(a) Organization (ORG)**
+  - **(a1) Governance (GOV)**
+  - **(a2) Operations (OPS)**
+    - **(a2a) Agents (AGT)** — Code (COD), Integrations (ITG), Personas (PER), Setup (SET), Shares (SHA), Skills (SKI), Workflows (WFL)
+    - **(a2b) Business Units (BUS)**
+  - **(a3) Wiki (WIK)**
+    - **(a3a) Applications (APP)** — each holds a single summary file
+    - **(a3b) Knowledge Bases (KBS)**
 
-### 000FAI files
+### FAI files
 
-- **(1) 000COD** — App Codes, App Objects, Object Types — [[COD]]
-- **(2) 000CTF** — Categories, Tags, Fields — [[CTF]]
-- **(3) 000SPF** — Strings, Patterns, Flows — [[SPF]]
+- **(1) COD** — App Codes, App Objects, Object Types — [[COD]]
+- **(2) CTF** — Categories, Tags, Fields — [[CTF]]
+- **(3) SPF** — Strings, Patterns, Flows — [[SPF]]
 
 ---
 
