@@ -18,7 +18,7 @@ An environment — each level lives inside the one above it:
 
 - **Organization (ORG)**
   - **Governance (GOV)**
-  - **Operations (OPS)** → Agents (AGT) → Code (COD), Integrations (ITG), Personas (PER), Setup (SET), Shares (SHA), Skills (SKI), Workflows (WFL); Business Units (BUS)
+  - **Operations (OPS)** → Agents (AGT) → Code (COD), Integrations (ITG), Personas (PER), Skills (SKI), Workflows (WFL); Business Units (BUS)
   - **Wiki (WIK)** → Applications (APP), Knowledge Bases (KBS)
 
 **Files**
