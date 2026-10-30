@@ -31,9 +31,11 @@ type: reference
 | `000CPL` | cPanel               | cPanel hosting panel                                       |
 | `000DAI` | Data & Analytics     | Reports, exports, cross-app aggregation                   |
 | `000DAN` | DBA                  | Database admin, backups, repo management                  |
+| `000DIS` | Discussion           | Discussion                                                 |
 | `000DOL` | Dolibarr             | ERP & CRM, ticket system                                  |
 | `000DVE` | Device               | Hardware device classification                            |
 | `000EMA` | EDM                  | Document management, file sync, mass email                |
+| `000END` | End                  | End                                                        |
 | `000ETY` | Entity               | Generic entity classification                             |
 | `000EXT` | External             | External-facing classification                            |
 | `000FAI` | Framework AI         | AI framework within 000SAI, complements 000TOG           |
@@ -65,6 +67,8 @@ type: reference
 | `000SCR` | Scripts              | Automation scripts – Python, PowerShell, PHP, Bash      |
 | `000SUN` | Supplier & Purchase  | Purchase orders, vendors, stock                       |
 | `000SYS` | System               | System classification                                |
+| `000TFL` | TaskFlow             | TaskFlow – replaces WFL                                    |
+| `000TKF` | TaskForce            | TaskForce                                                  |
 | `000TOG` | TOGAF                | Enterprise architecture, foundational documents       |
 | `000TOL` | Tool                 | Integrated tools – API-backed (e.g. MCP server, REST clients) |
 | `000TYP` | Type                 | Type classification                                  |
@@ -133,6 +137,12 @@ Identify the type of object within an application. Used as sub-qualifiers in con
 | `000PJS` | Project |
 | `000SVC` | Service |
 
+### Flarum
+
+| Code | Label |
+|------|-------|
+| `000DIS` | Discussion |
+
 ### Obsidian
 
 | Code | Label |
@@ -162,6 +172,7 @@ Classify the type of work or activity. Used in ticket categorisation and deliver
 | `000CON` | Consultancy    | Consulting services                                          |
 | `000DEM` | Demonstration  | Product / Service / Features                                 |
 | `000DOC` | Documentation  | Documentation creation                                       |
+| `000END` | End            | End                                                          |
 | `000FLO` | Flow           | Flow definitions, process flows, and procedures              |
 | `000INS` | Installation   | Module / app installation                                    |
 | `000ITG` | Integration    | System / API integrations                                    |
