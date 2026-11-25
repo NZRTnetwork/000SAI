@@ -46,7 +46,7 @@ An environment — each level lives inside the one above it:
 
 - **Organization (ORG)**
   - **Governance (GOV)**
-  - **Operations (OPS)** → Agents (AGT) — tasker agents, each with a distinct function → Integrations (ITG), Personas (PER) incl. each agent's Code Portfolio, Skills (SKI), TaskFlows (TFL); Business Units (BUS)
+  - **Operations (OPS)** → Agents (AGT) — tasker agents, each with a distinct function → Integrations (ITG), Personas (PER) incl. each agent's Code Portfolio, Skills (SKI); Business Units (BUS)
   - **Wiki (WIK)** → Applications (APP), Knowledge Bases (KBS)
 
 **Files**
@@ -61,9 +61,9 @@ An environment — each level lives inside the one above it:
 
 - **Folders:** bare 3-letter uppercase code (e.g. `DOL`)
 - **Node file:** each ref-code node holds one summary file named after its lowercase code (e.g. `dol.md` under `DOL`)
-- **Content prefix pattern:** `{CODE}-{qualifier}` → `WOR-PGT-CAS` = WordPress page for Customer & Sales
-- **Code chain:** three codes joined with `-` → `DOL-TIC-TFL` = Dolibarr · Ticket · TaskFlow
-- **Frontmatter:** include the reference code as a tag, e.g. `tags: [dolibarr, DOL, config]`
+- **Content prefix pattern:** `{CODE}-{qualifier}` → `WOR-PGT-CAS` = WordPress · Page Title · Customer & Sales
+- **Code chain:** `APP-OBJ-TYP` → `DOL-TIC-RPT` = Dolibarr · Ticket · Reporting
+- **Frontmatter:** `rfc` · `apc` · `aoc` · `otc` = Reference Code · App Code · App Object Code · Object Type Code → `rfc: FAI` · `apc: OBS` · `aoc: NTE` · `otc: COD`
 
 ## Repository layout
 
@@ -89,8 +89,7 @@ An environment — each level lives inside the one above it:
                 │       │   ├── AGT/        Agents
                 │       │   │   ├── ITG/    Integrations
                 │       │   │   ├── PER/    Personas (incl. Code Portfolios)
-                │       │   │   ├── SKI/    Skills
-                │       │   │   └── TFL/    TaskFlows
+                │       │   │   └── SKI/    Skills
                 │       │   └── BUS/        Business Units
                 │       └── WIK/            Wiki
                 │           ├── APP/        Applications
