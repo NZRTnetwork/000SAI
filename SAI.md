@@ -18,7 +18,7 @@ type: reference
 
 Structure AI is a structure methodology for AI agents, includes the Crowned Model and Framework AI (FAI). The SAI folder is an Obsidian (OBS) vault (VLT) — folders use bare `XXX` code naming.
 
-Each ref-code node holds a single summary file named after its lowercase code (e.g. `win.md` under WIN, `dol.md` under DOL) — a condensed reference of what is actually used/configured for that node, not general product documentation.
+Each level holds a single summary (SMY) file named after its lowercase code (e.g. `win.md` under WIN) — a condensed reference of what is actually used/configured for that node, not general product documentation.
 
 ## Crowned Model
 
