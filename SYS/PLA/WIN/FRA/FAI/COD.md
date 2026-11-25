@@ -190,6 +190,5 @@ Classify the type of work or activity. Used in ticket categorisation and deliver
 ## Usage & Conventions
 
 - **Format:** `000` + 3-letter uppercase code (e.g. `000DOL`)
-- **Content prefix pattern:** `{CODE}-{qualifier}` → e.g. `000WOR-000PGT-000CAS` = WordPress page for Customer & Sales
-- **Hierarchical doc refs (body only, never as tags):** `WPS-DOL-BUS-{unit}` chains codes with `-`; tags stay flat (`000WPS`, `000BUS`)
-- **Frontmatter usage:** include reference code as a tag: `tags: [dolibarr, 000DOL, config]`
+- **Code chain:** `apc-aoc-otc` = App Code · App Object Code · Object Type Code → `DOL-TIC-RPT` = Dolibarr · Ticket · Reporting
+- **Frontmatter:** `rfc` · `apc` · `aoc` · `otc` = Reference Code · App Code · App Object Code · Object Type Code
