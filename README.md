@@ -46,7 +46,7 @@ An environment — each level lives inside the one above it:
 
 - **Organization (ORG)**
   - **Governance (GOV)**
-  - **Operations (OPS)** → Agents (AGT) → Code (COD), Integrations (ITG), Personas (PER), Skills (SKI), TaskFlows (TFL); Business Units (BUS)
+  - **Operations (OPS)** → Agents (AGT) — tasker agents, each with a distinct function → Integrations (ITG), Personas (PER) incl. each agent's Code Portfolio, Skills (SKI), TaskFlows (TFL); Business Units (BUS)
   - **Wiki (WIK)** → Applications (APP), Knowledge Bases (KBS)
 
 **Files**
@@ -87,9 +87,8 @@ An environment — each level lives inside the one above it:
                 │       ├── GOV/            Governance
                 │       ├── OPS/            Operations
                 │       │   ├── AGT/        Agents
-                │       │   │   ├── COD/    Code
                 │       │   │   ├── ITG/    Integrations
-                │       │   │   ├── PER/    Personas
+                │       │   │   ├── PER/    Personas (incl. Code Portfolios)
                 │       │   │   ├── SKI/    Skills
                 │       │   │   └── TFL/    TaskFlows
                 │       │   └── BUS/        Business Units
