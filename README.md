@@ -60,9 +60,9 @@ An environment — each level lives inside the one above it:
 ## Conventions
 
 - **Folders:** bare 3-letter uppercase code (e.g. `DOL`)
-- **Node file:** each ref-code node holds one summary file named after its lowercase code (e.g. `dol.md` under `DOL`)
+- **SMY file:** each ref-code node holds one summary (SMY) file named after its lowercase code (e.g. `dol.md` under `DOL`)
 - **Content prefix pattern:** `{CODE}-{qualifier}` → `WOR-PGT-CAS` = WordPress · Page Title · Customer & Sales
-- **Code chain:** `APP-OBJ-TYP` → `DOL-TIC-RPT` = Dolibarr · Ticket · Reporting
+- **Code chain:** `apc-aoc-otc` = App Code · App Object Code · Object Type Code → `DOL-TIC-RPT` = Dolibarr · Ticket · Reporting
 - **Frontmatter:** `rfc` · `apc` · `aoc` · `otc` = Reference Code · App Code · App Object Code · Object Type Code
 
 ## Repository layout
