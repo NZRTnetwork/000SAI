@@ -62,7 +62,7 @@ An environment — each level lives inside the one above it:
 - **Folders:** bare 3-letter uppercase code (e.g. `DOL`)
 - **Node file:** each ref-code node holds one summary file named after its lowercase code (e.g. `dol.md` under `DOL`)
 - **Content prefix pattern:** `{CODE}-{qualifier}` → `WOR-PGT-CAS` = WordPress page for Customer & Sales
-- **Hierarchical doc refs (body only, never as tags):** `WPS-DOL-BUS-ICS` chains codes with `-`; tags stay flat (`WPS`, `BUS`)
+- **Code chain:** three codes joined with `-` → `DOL-TIC-TFL` = Dolibarr · Ticket · TaskFlow
 - **Frontmatter:** include the reference code as a tag, e.g. `tags: [dolibarr, DOL, config]`
 
 ## Repository layout
